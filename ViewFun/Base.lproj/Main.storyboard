@@ -19,27 +19,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4li-Bz-T2k">
-                                <color key="backgroundColor" red="0.085007378800000005" green="0.1049599378" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CsQ-yE-gC1" userLabel="Blue View">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="7W9-PD-94a"/>
-                                    <constraint firstAttribute="width" constant="100" id="aSe-U1-4Wg"/>
+                                    <constraint firstAttribute="width" constant="100" id="gWs-pv-EzZ"/>
+                                    <constraint firstAttribute="height" constant="100" id="gsW-w6-DtN"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDG-W6-7es">
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxt-4B-YaO" userLabel="Red View">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="93b-wJ-igz"/>
-                                    <constraint firstAttribute="height" constant="40" id="LTB-Bu-ciA"/>
+                                    <constraint firstAttribute="width" constant="40" id="JDD-Nj-THb"/>
+                                    <constraint firstAttribute="height" constant="40" id="iMg-2r-Mea"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4li-Bz-T2k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QW8-GN-FIZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RDG-W6-7es" secondAttribute="bottom" constant="20" id="bbA-ZY-Jwk"/>
-                            <constraint firstItem="RDG-W6-7es" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rVI-eW-aSf"/>
-                            <constraint firstItem="4li-Bz-T2k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="smY-y6-lKm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hxt-4B-YaO" secondAttribute="trailing" id="ABo-DV-Uj4"/>
+                            <constraint firstItem="CsQ-yE-gC1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="QQE-Nu-wrc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hxt-4B-YaO" secondAttribute="bottom" constant="20" id="XvE-lJ-K4l"/>
+                            <constraint firstItem="CsQ-yE-gC1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lDf-nI-6Ri"/>
                         </constraints>
                     </view>
                 </viewController>
